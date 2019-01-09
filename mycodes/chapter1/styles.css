@@ -100,39 +100,39 @@ dt {
 /* pc */
 @media screen and (min-width: 481px) {
   body, .header, .footer, .navigation {
-    width: 960px;
+    width: 100%;
   }
   .column {
-    margin: 10px 10px 0 0;
+    margin: 10px 1.0417% 0 0;
   }
   .navigation ul li {
-    width: 320px; /* 960/3 */
+    width: 33.3333%; /* 960/3 */
   }
   #visit {
-    width: 240px;
+    width: 25%;
     float: left;
   }
   #points {
-    width: 240px;
+    width: 25%;
     float: right;
   }
   #main {
-    margin: 10px 260px 0 250px;
+    margin: 10px 27.0833% 0 26.0417%;
   }
 }
 /* mobile */
 @media screen and (max-width: 480px) {
   body, .header, .footer, .navigation {
-    width: 320px;
+    width: 100%;
   }
   .column {
     margin: 10px 0;
     border-bottom: 1px dashed #7b96bc;
   }
   .navigation ul li {
-    width: 106.6667px;
+    width: 33.3333%;
   }
   #visit, #points, #main {
-    width: 320px;
+    width: 100%;
   }
 }
