@@ -100,13 +100,13 @@ body, .header, .footer, .navigation {
 .navigation {
   min-height: 25px;
 }
+.navigation ul li {
+  width: 33.3333%; /* 960/3 */
+}
 /* pc */
 @media screen and (min-width: 481px) {
   .column {
     margin: 10px 1.0417% 0 0;
-  }
-  .navigation ul li {
-    width: 33.3333%; /* 960/3 */
   }
   #visit {
     width: 25%;
@@ -123,11 +123,8 @@ body, .header, .footer, .navigation {
 /* mobile */
 @media screen and (max-width: 480px) {
   .column {
-    margin: 10px 0;
+    margin: 1em 0;
     border-bottom: 1px dashed #7b96bc;
-  }
-  .navigation ul li {
-    width: 33.3333%;
   }
   #visit, #points, #main {
     width: 100%;
