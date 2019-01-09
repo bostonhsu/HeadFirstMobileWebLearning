@@ -86,6 +86,17 @@ dt {
   font-style: italic;
 }
 
+/* shared */
+.header, .footer, .navigation {
+  clear: both;
+}
+.header {
+  background: url(images/w.png) no-repeat;
+  height: 200px;
+}
+.navigation {
+  min-height: 25px;
+}
 /* Structure */
 body, .header, .navigation, .footer {
   width: 960px;
