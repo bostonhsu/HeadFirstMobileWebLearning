@@ -98,37 +98,41 @@ dt {
   min-height: 25px;
 }
 /* pc */
-body, .header, .footer, .navigation {
-  width: 960px;
-}
-.column {
-  margin: 10px 10px 0 0;
-}
-.navigation ul li {
-  width: 320px; /* 960/3 */
-}
-#visit {
-  width: 240px;
-  float: left;
-}
-#points {
-  width: 240px;
-  float: right;
-}
-#main {
-  margin: 10px 260px 0 250px;
+@media screen and (min-width: 481px) {
+  body, .header, .footer, .navigation {
+    width: 960px;
+  }
+  .column {
+    margin: 10px 10px 0 0;
+  }
+  .navigation ul li {
+    width: 320px; /* 960/3 */
+  }
+  #visit {
+    width: 240px;
+    float: left;
+  }
+  #points {
+    width: 240px;
+    float: right;
+  }
+  #main {
+    margin: 10px 260px 0 250px;
+  }
 }
 /* mobile */
-body, .header, .footer, .navigation {
-  width: 320px;
-}
-.column {
-  margin: 10px 0;
-  border-bottom: 1px dashed #7b96bc;
-}
-.navigation ul li {
-  width: 106.6667px;
-}
-#visit, #points, #main {
-  width: 320px;
+@media screen and (max-width: 480px) {
+  body, .header, .footer, .navigation {
+    width: 320px;
+  }
+  .column {
+    margin: 10px 0;
+    border-bottom: 1px dashed #7b96bc;
+  }
+  .navigation ul li {
+    width: 106.6667px;
+  }
+  #visit, #points, #main {
+    width: 320px;
+  }
 }
