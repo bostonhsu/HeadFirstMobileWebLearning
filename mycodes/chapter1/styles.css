@@ -118,6 +118,20 @@ body, .header, .footer, .navigation {
 #main {
   margin: 10px 260px 0 250px;
 }
+/* mobile */
+body, .header, .footer, .navigation {
+  width: 320px;
+}
+.column {
+  margin: 10px 0;
+  border-bottom: 1px dashed #7b96bc;
+}
+.navigation ul li {
+  width: 106.6667px;
+}
+#visit, #points, #main {
+  width: 320px;
+}
 
 /* Structure */
 body, .header, .navigation, .footer {
