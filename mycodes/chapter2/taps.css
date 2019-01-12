@@ -93,10 +93,6 @@ dt {
 .header, .footer {
   clear: both;
 }
-.header {
-  background:url('images/taps.jpg') repeat-x;
-  height: 300px;
-}
 .navigation {
   min-height: 25px;
 }
